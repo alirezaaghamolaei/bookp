@@ -1,0 +1,78 @@
+2017-11-08T22:02:35+00:00 CRITICAL Uncaught Error: Call to undefined function emallshop_get_post_thumbnail() in C:\xampp\htdocs\emall\wp-content\plugins\pl-emallshop-extensions\js_composer\shortcodes\blogs-carousel.php:285
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php(565): WPBakeryShortCode_Blogs_Carousel->content(Array, '')
+#1 C:\xampp\htdocs\emall\wp-content\plugins\js_composer\include\helpers\helpers.php(1304): WPBakeryShortCode->output(Array, '')
+#2 C:\xampp\htdocs\emall\wp-includes\shortcodes.php(345): vc_do_shortcode(Array, '', 'blogs_carousel')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\xampp\htdocs\emall\wp-includes\shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(blogs_...', 'do_shortcode_ta...', '[blogs_carousel...')
+#5 C:\xampp\htdocs\emall\wp-content\plugins\js_composer\include\helpers\helpers.php(232): do_shortcode('[blogs_carousel...')
+#6 C:\xampp\htdocs\emall\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(93): wpb_js_rem
+
+2017-11-09T00:45:57+00:00 CRITICAL Uncaught Error: Call to undefined function emallshop_options_header_style() in C:\xampp\htdocs\emall\wp-content\themes\emallshop\admin\theme_options.php:22
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-content\themes\emallshop\inc\theme-function.php(29): require_once()
+#1 C:\xampp\htdocs\emall\wp-content\themes\emallshop\functions.php(457): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\emall\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\emall\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\emall\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\emall\wp-admin\admin.php(31): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\emall\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2017-11-09T00:45:57+00:00 CRITICAL Uncaught Error: Call to undefined function emallshop_options_header_style() in C:\xampp\htdocs\emall\wp-content\themes\emallshop\admin\theme_options.php:22
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-content\themes\emallshop\inc\theme-function.php(29): require_once()
+#1 C:\xampp\htdocs\emall\wp-content\themes\emallshop\functions.php(457): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\emall\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\emall\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\emall\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\emall\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown
+
+2018-02-13T23:49:27+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_formatted_cart_item_data() in C:\xampp\htdocs\emall\wp-content\themes\emallshop\woocommerce\cart\mini-cart.php:57
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 C:\xampp\htdocs\emall\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1537): wc_get_template('cart/mini-cart....', Array)
+#2 C:\xampp\htdocs\emall\wp-content\themes\emallshop\inc\theme-function.php(638): woocommerce_mini_cart()
+#3 C:\xampp\htdocs\emall\wp-content\themes\emallshop\templates\header\header-1.php(69): emallshop_header_cart()
+#4 C:\xampp\htdocs\emall\wp-includes\template.php(690): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\emall\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\emall\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#7 C:\xampp\htdocs\emall\wp-content\themes\emallshop\header.php(57): get_template_part('templa
+
+2018-02-13T23:49:28+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_formatted_cart_item_data() in C:\xampp\htdocs\emall\wp-content\themes\emallshop\woocommerce\cart\mini-cart.php:57
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 C:\xampp\htdocs\emall\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1537): wc_get_template('cart/mini-cart....', Array)
+#2 C:\xampp\htdocs\emall\wp-content\themes\emallshop\inc\theme-function.php(638): woocommerce_mini_cart()
+#3 C:\xampp\htdocs\emall\wp-content\themes\emallshop\templates\header\header-1.php(69): emallshop_header_cart()
+#4 C:\xampp\htdocs\emall\wp-includes\template.php(690): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\emall\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\emall\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#7 C:\xampp\htdocs\emall\wp-content\themes\emallshop\header.php(57): get_template_part('templa
+
+2018-02-13T23:49:40+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_formatted_cart_item_data() in C:\xampp\htdocs\emall\wp-content\themes\emallshop\woocommerce\cart\mini-cart.php:57
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 C:\xampp\htdocs\emall\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1537): wc_get_template('cart/mini-cart....', Array)
+#2 C:\xampp\htdocs\emall\wp-content\themes\emallshop\inc\theme-function.php(638): woocommerce_mini_cart()
+#3 C:\xampp\htdocs\emall\wp-content\themes\emallshop\templates\header\header-1.php(69): emallshop_header_cart()
+#4 C:\xampp\htdocs\emall\wp-includes\template.php(690): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\emall\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\emall\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#7 C:\xampp\htdocs\emall\wp-content\themes\emallshop\header.php(57): get_template_part('templa
+
+2018-05-07T08:42:52+00:00 CRITICAL Uncaught Error: Call to undefined function the_tfitle() in C:\xampp\htdocs\emall\wp-content\themes\emallshop\framework\woocommerce\template-tags.php:213
+Stack trace:
+#0 C:\xampp\htdocs\emall\wp-includes\class-wp-hook.php(286): emallshop_shop_loop_item_title('')
+#1 C:\xampp\htdocs\emall\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\emall\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\emall\wp-content\themes\emallshop\framework\woocommerce\template-tags.php(201): do_action('emallshop_shop_...')
+#4 C:\xampp\htdocs\emall\wp-includes\class-wp-hook.php(286): emallshop_shop_loop_item_title_rating('')
+#5 C:\xampp\htdocs\emall\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\emall\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\emall\wp-content\themes\emallshop\woocommerce\content-product.php(72): do_action('woocommerce_sho...')
+#8 C:\xampp\htdocs\emall\wp-includes\template.php(690)
+

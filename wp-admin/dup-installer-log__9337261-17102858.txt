@@ -1,0 +1,219 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.52
+* STEP-1 START @ 09:53:31
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.2.6 | SAPI: litespeed
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		LiteSpeed
+DOC ROOT:	/home/tarfand7/public_html
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://maranta.ir/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	emallshop_9337261e7c87f9b36629_20181117102858_archive.zip
+SIZE:	80.48MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 10614
+    [filename] => /home/tarfand7/public_html/emallshop_9337261e7c87f9b36629_20181117102858_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2019-12-28 09:53:52
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.191228095352.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 09:53:52 - RUNTIME: 20.8379 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 09:55:42
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.46 -- Build Server: 10.1.16
+FILE SIZE:	dup-database__9337261-17102858.sql (2.77MB) - dup-installer-data__9337261-17102858.sql (2.77MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/tarfand7/public_html/dup-installer-data__9337261-17102858.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	
+QUERIES RAN:	394
+
+wp_commentmeta: (4)
+wp_comments: (28)
+wp_dokan_announcement: (0)
+wp_dokan_orders: (0)
+wp_dokan_refund: (0)
+wp_dokan_withdraw: (0)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (646)
+wp_postmeta: (3242)
+wp_posts: (469)
+wp_revslider_css: (109)
+wp_revslider_layer_animations: (0)
+wp_revslider_navigations: (0)
+wp_revslider_sliders: (2)
+wp_revslider_slides: (7)
+wp_revslider_static_slides: (1)
+wp_term_relationships: (265)
+wp_term_taxonomy: (92)
+wp_termmeta: (71)
+wp_terms: (92)
+wp_usermeta: (62)
+wp_users: (1)
+wp_wc_download_log: (0)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (2)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_ir: (2)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yith_wcwl: (0)
+wp_yith_wcwl_lists: (1)
+wp_zoo_cw_global_config: (16)
+wp_zoo_cw_product_attribute_swatch_type: (1)
+
+Removed '79' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 0.6674 sec.
+STEP-2 COMPLETE @ 09:55:43 - RUNTIME: 0.6836 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 09:56:07
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta~ (4)
+wp_comments~ (28)
+wp_dokan_announcement^ (0)
+wp_dokan_orders^ (0)
+wp_dokan_refund^ (0)
+wp_dokan_withdraw^ (0)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (566)
+wp_postmeta~ (3242)
+wp_posts~ (469)
+wp_revslider_css~ (109)
+wp_revslider_layer_animations^ (0)
+wp_revslider_navigations^ (0)
+wp_revslider_sliders~ (2)
+wp_revslider_slides~ (7)
+wp_revslider_static_slides~ (1)
+wp_term_relationships~ (265)
+wp_term_taxonomy~ (92)
+wp_termmeta~ (71)
+wp_terms~ (92)
+wp_usermeta~ (62)
+wp_users~ (1)
+wp_wc_download_log^ (0)
+wp_wc_webhooks^ (0)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies~ (2)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_ir~ (2)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta^ (0)
+wp_woocommerce_order_items^ (0)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (1)
+wp_woocommerce_shipping_zone_locations^ (0)
+wp_woocommerce_shipping_zone_methods^ (0)
+wp_woocommerce_shipping_zones^ (0)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_yith_wcwl^ (0)
+wp_yith_wcwl_lists~ (1)
+wp_zoo_cw_global_config~ (16)
+wp_zoo_cw_product_attribute_swatch_type~ (1)
+--------------------------------------
+Search1:	'C:/xampp/htdocs/emall' 
+Change1:	'/home/tarfand7/public_html' 
+Search2:	'C:\/xampp\/htdocs\/emall' 
+Change2:	'\/home\/tarfand7\/public_html' 
+Search3:	'C%3A%2Fxampp%2Fhtdocs%2Femall%2F' 
+Change3:	'%2Fhome%2Ftarfand7%2Fpublic_html%2F' 
+Search4:	'C:\xampp\htdocs\emall' 
+Change4:	'/home/tarfand7/public_html' 
+Search5:	'//localhost/emall' 
+Change5:	'//maranta.ir' 
+Search6:	'\/\/localhost\/emall' 
+Change6:	'\/\/maranta.ir' 
+Search7:	'%2F%2Flocalhost%2Femall' 
+Change7:	'%2F%2Fmaranta.ir' 
+SCANNED:	Tables:44 	|	 Rows:5034 	|	 Cells:29506 
+UPDATED:	Tables:3 	|	 Rows:437 	|	 Cells:440 
+ERRORS:		0 
+RUNTIME:	0.298700 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+NEW WP-ADMIN USER: Username 'admin' already exists in the database.  Unable to create new account 
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+
+STEP 3 COMPLETE @ 09:56:07 - RUNTIME: 0.3117 sec.
+
+
